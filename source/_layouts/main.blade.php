@@ -9,7 +9,9 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </head>
-    <body>
+<body class="bg-black">
+        @yield('header')
         @yield('body')
+        @yield('text')
     </body>
 </html>
