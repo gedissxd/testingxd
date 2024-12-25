@@ -1,3 +1,9 @@
 [build]
 command = "npm run prod"
 publish = "build_production"
+
+[functions]
+node_bundler = "esbuild"
+
+[build.environment]
+PHP_VERSION = "8.2"
