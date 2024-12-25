@@ -1,7 +1,8 @@
 @extends('_layouts.main')
 
 @section('body')
-<div class="p-8">
-    <h1 class="text-3xl font-bold text-blue-300">Hello world!</h1>
+<div class="p-10 flex">
+    <h1 class="text-3xl font-bold text-yellow-500 ">Hello world!</h1>
+    <h1 class="text-3xl font-bold ">Hello world!</h1>
 </div>
 @endsection
